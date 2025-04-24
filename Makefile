@@ -10,6 +10,7 @@ LUCI_PKGARCH:=all
 
 define Package/luci-app-tailscale/conffiles
 /etc/config/tailscale
+/etc/init.d/tailscale
 endef
 
 include $(TOPDIR)/feeds/luci/luci.mk
